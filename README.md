@@ -44,6 +44,13 @@ The kernel module leverages the `input.h` library to:
 
 ---
 
+## How the kernel module works
+
+![implementation](https://github.com/user-attachments/assets/a5bc0650-9ca2-4dfb-b9a6-1ea0283ea25a)
+
+Also note that the original inputs from the controller are also passed as is and not masked.
+
+
 ## 📚 References
 
 - [Linux input-event-codes.h](https://github.com/torvalds/linux/blob/master/include/uapi/linux/input-event-codes.h)
