@@ -20,7 +20,7 @@
 
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("OS group 7 bits pilani goa");
+MODULE_AUTHOR("annnniiii (f20220211@goa.bits-pilani.ac.in)");
 MODULE_DESCRIPTION("Playstation4 controller remaped to mouse movements and keyboard.");
 
 // Virtual keyboard and mouse devices
