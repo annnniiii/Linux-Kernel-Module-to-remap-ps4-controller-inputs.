@@ -4,7 +4,7 @@ This project implements a Linux kernel module that remaps a PlayStation 4 (DualS
 
 ---
 
-## 🧠 Overview
+## Overview
 
 The kernel module leverages the `input.h` library to:
 
@@ -14,7 +14,7 @@ The kernel module leverages the `input.h` library to:
 
 ---
 
-## ⚙️ Implementation Details
+## Implementation Details
 
 1. **Initialization**
    - Virtual input devices (keyboard and mouse) are created using `input_dev` structs from `input.h`.
@@ -25,7 +25,7 @@ The kernel module leverages the `input.h` library to:
 3. **Event Remapping**
    - The `ps4_event()` function listens to and remaps input events.
 
-### 🔄 Mappings
+### Mappings
 
 #### EV_ABS (Axis Events)
 - Gyroscope X/Y → Mouse X/Y movement
@@ -51,7 +51,7 @@ The kernel module leverages the `input.h` library to:
 Also note that the original inputs from the controller are also passed as is and not masked.
 
 
-## 📚 References
+## References
 
 - [Linux input-event-codes.h](https://github.com/torvalds/linux/blob/master/include/uapi/linux/input-event-codes.h)
 - [Input event code documentation](https://docs.kernel.org/input/event-codes.html)
